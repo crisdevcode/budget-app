@@ -1,0 +1,30 @@
+{
+  "name": "api-budgedapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "babel-node": "babel-node --presets=@babel/preset-env",
+    "server": "nodemon --exec npm run babel-node index.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Cristian Unigarro",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.2.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "path": "^0.12.7",
+    "promise-mysql": "^5.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.18.2",
+    "@babel/node": "^7.17.10",
+    "@babel/preset-env": "^7.18.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.16"
+  }
+}

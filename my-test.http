@@ -1,0 +1,22 @@
+# GET http://localhost:4000/api/v1/transactions
+
+# POST http://localhost:4000/api/v1/transactions
+# content-type: application/json
+
+# {
+#     "text": "Spotify",
+#     "amount": 40
+# }
+
+# GET http://localhost:4000/api/v1/transactions/1
+
+# DELETE http://localhost:4000/api/v1/transactions/3
+
+PUT http://localhost:4000/api/v1/transactions/pcltmcjx6pl3xjbec7
+Content-Type: application/json
+
+{
+    "text": "Juego",
+    "amount": 50,
+    "type": "income"
+}
