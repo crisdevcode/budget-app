@@ -2,16 +2,14 @@
 
 ## Table of contents
 
--   [Overview](#overview)
-    -   [Description](#description)
-    -   [Screenshot](#screenshot)
--   [My process](#my-process)
--   [What I learned](#my-process)
--   [Author](#author)
+- [Overview](#overview)
+  - [Description](#description)
+  - [Screenshot](#screenshot)
+- [My process](#my-process)
+- [What I learned](#my-process)
+- [Author](#author)
 
 ## Overview
-
-Traducir esta página
 
 ### Description
 
@@ -20,30 +18,30 @@ operations recorded.
 
 ### Screenshot
 
-<img src="./screenshots/s1.png" alt="drawing" width="500"/>
+<img src="./screenshots/s1.png" alt="app" width="500"/>
 
-<img src="./screenshots/s3.png" alt="drawing" width="500"/>
+<img src="./screenshots/s3.png" alt="app" width="500"/>
 
 ## My process
 
 ### Front-End | Built with:
 
--   React JS
--   Context API
--   Hooks: useContext, useEffect, useState, useNavigate, useParams
--   Tailwind CSS
+- React JS
+- Context API
+- Hooks: useContext, useEffect, useState, useNavigate, useParams
+- Tailwind CSS
 
 ### Back-End | Built with:
 
--   NodeJS
--   Express
--   MySQL
+- NodeJS
+- Express
+- MySQL
 
 ## What I learned?
 
--   Implement a crud using Context API
--   Implement the backend using Node JS and MySQL.
+- Implement CRUD using Context API
+- Implement the backend using Node JS and MySQL.
 
 ## Author
 
--   Cristian Unigarro
+- Cristian Unigarro
